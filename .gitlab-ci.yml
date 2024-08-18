@@ -1,7 +1,0 @@
-stages:
-  - test
-
-build-job:
-  stage: test
-  script:
-    - sudo ./gradlew checkLicenses check
