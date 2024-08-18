@@ -1,0 +1,73 @@
+{
+  "ncl.control.boolean.true": "True",
+  "ncl.control.boolean.false": "False",
+
+  "ncl.control.action.execute": "EXECUTE",
+
+  "ncl.control.color.color_picker_title": "Color Picker",
+  "ncl.control.dropdown.dropdown_widget_title": "Dropdown Chooser",
+
+  "ncl.control.text.blank": "<blank>",
+
+  "ncl.list.move_up": "Move up",
+  "ncl.list.move_down": "Move down",
+  "ncl.list.remove": "Remove",
+  "ncl.list.add_top": "New entry",
+  "ncl.list.empty": "List is empty",
+
+  "ncl.restart.title": "Config requires restart!",
+  "ncl.restart.message": "One or more options needs you to restart the game to apply the changes.",
+  "ncl.restart.yes": "Close Minecraft",
+  "ncl.restart.no": "Ignore",
+
+  "ncl.gui.save": "Save Changes",
+  "ncl.gui.save.tooltip": "Makes the changes made permanent.",
+  "ncl.gui.finished.tooltip": "Closes the GUI.",
+  "ncl.gui.cancel.tooltip": "Forgets pending changes and closes the GUI.",
+  "ncl.gui.reset.tooltip": "Resets all options to default. (This is reversible!)",
+  "ncl.gui.undo": "Undo",
+  "ncl.gui.undo.tooltip": "Reverts all options back to what they were before editing.",
+  "ncl.gui.fail_apply": "Failed to apply",
+  "ncl.gui.fail_apply.tooltip": "There was an error and the changes couldn't be applied.",
+  "ncl.gui.save_before_exit": "Save before exiting!",
+  "ncl.gui.save_before_exit.tooltip": "Save or cancel to exit the GUI.",
+
+  "ncl.flag.game_restart": "You must restart the game for changes to take effect",
+  "ncl.flag.reload_chunks": "Reloads chunks",
+  "ncl.flag.world_render_update": "Rerenders the world",
+  "ncl.flag.asset_reload": "Reloads all assets",
+
+  "config.nullsconfiglib.common.category_general": "Null's Config Lib",
+
+  "config.nullsconfiglib.common.showColorPickerIndicator": "Show Color Picker Indicator",
+  "config.nullsconfiglib.common.useDefaultButtons": "Use Default Button Texture",
+
+  "config.nullsconfiglib.fabric-test.category_general": "Fabric Testing Config",
+  "config.nullsconfiglib.fabric-test.tboolean": "Boolean",
+  "config.nullsconfiglib.fabric-test.tickBox": "Tick Box",
+  "config.nullsconfiglib.fabric-test.color": "Color",
+  "config.nullsconfiglib.fabric-test.doubleField": "Double Field",
+  "config.nullsconfiglib.fabric-test.doubleSlider": "Double Slider",
+  "config.nullsconfiglib.fabric-test.tenum": "Enum",
+  "config.nullsconfiglib.fabric-test.floatField": "Float Field",
+  "config.nullsconfiglib.fabric-test.floatSlider": "Float Slider",
+  "config.nullsconfiglib.fabric-test.intField": "Int Field",
+  "config.nullsconfiglib.fabric-test.intSlider": "Int Slider",
+  "config.nullsconfiglib.fabric-test.item": "Item",
+  "config.nullsconfiglib.fabric-test.longField": "Long Field",
+  "config.nullsconfiglib.fabric-test.longSlider": "Long Slider",
+  "config.nullsconfiglib.fabric-test.string": "String",
+  "config.nullsconfiglib.fabric-test.masterTickBox": "Master Tick Box",
+  "config.nullsconfiglib.fabric-test.list": "List",
+
+  "ncl.config.enum.TestEnum.one": "One",
+  "ncl.config.enum.TestEnum.two": "Two",
+  "ncl.config.enum.TestEnum.buckle_my_shoe": "Buckle My Shoe",
+  "ncl.config.enum.TestEnum.three": "Three",
+  "ncl.config.enum.TestEnum.four": "Four",
+  "ncl.config.enum.TestEnum.buckle_some_more": "Buckle Some More",
+  "ncl.config.enum.TestEnum.five": "Five",
+  "ncl.config.enum.TestEnum.six": "Six",
+  "ncl.config.enum.TestEnum.nike_kicks": "Nike Kicks",
+  "ncl.config.enum.TestEnum.ooh_that_is_so_fire": "OOH That is so Fire"
+}

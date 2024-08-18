@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "nullsconfiglib",
+  "version": "${version}",
+  "name": "Null's Config Lib",
+  "description": "A Config Library for Null's Mods",
+  "authors": [
+    "NullVed / RealDarkStudios"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nullved.nullsconfiglib.fabric.NullsConfigLibFabric"
+    ],
+    "client": [
+      "net.nullved.nullsconfiglib.fabric.client.NullsConfigLibFabricClient"
+    ],
+    "modmenu": [
+      "net.nullved.nullsconfiglib.fabric.NCLModMenuEntrypoint"
+    ]
+  },
+  "mixins": [
+    "nullsconfiglib.mixins.json"
+  ],
+  "accessWidener": "nullsconfiglib.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=12.1.4",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+    }
+  }
+}

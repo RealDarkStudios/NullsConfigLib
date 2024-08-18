@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "nullsconfiglib"
+version = "${version}"
+displayName = "Null's Config Lib"
+authors = "NullVed / RealDarkStudios"
+description = "A Config Library for Null's Mods."
+logoFile = "icon.png"
+
+[[dependencies.nullsconfiglib]]
+modId = "neoforge"
+type = "required"
+versionRange = "[20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nullsconfiglib]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.20.6,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nullsconfiglib]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "nullsconfiglib.mixins.json"

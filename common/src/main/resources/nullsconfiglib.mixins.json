@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.nullved.nullsconfiglib.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "OptionInstanceAccessor",
+    "TabNavigationBarAccessor"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
