@@ -4,4 +4,4 @@ stages:
 build-job:
   stage: test
   script:
-    - ./gradlew checkLicenses check
+    - sudo ./gradlew checkLicenses check
