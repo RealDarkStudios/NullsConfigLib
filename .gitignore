@@ -1,9 +1,4 @@
-.gradle/**
-common/.gradle/**
-fabric/.gradle/**
-neoforge/.gradle/**
+**/.gradle/**
 
 .idea/**
 gradle/**
-gradlew
-gradlew.bat
