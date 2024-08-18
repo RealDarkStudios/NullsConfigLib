@@ -1,0 +1,7 @@
+stages:
+  - test
+
+build-job:
+  stage: test
+  script:
+    - gradlew checkLicenses check
