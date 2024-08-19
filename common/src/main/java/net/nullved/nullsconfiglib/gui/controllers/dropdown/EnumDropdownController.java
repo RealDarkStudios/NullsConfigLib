@@ -31,9 +31,9 @@ public class EnumDropdownController<E extends Enum<E>> extends AbstractDropdownC
 
     /**
      * Searches through enum constants for one whose {@link #formatter} result equals {@code value}
+     * The return value of {@link #formatter} on each enum constant should be unique in order to ensure accuracy
      *
      * @return The enum constant associated with the {@code value} or the pending value if none are found
-     * @implNote The return value of {@link #formatter} on each enum constant should be unique in order to ensure accuracy
      */
     private E getEnumFromString(String value) {
         value = value.toLowerCase();
