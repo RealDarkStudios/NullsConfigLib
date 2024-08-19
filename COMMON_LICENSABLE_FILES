@@ -1,0 +1,9 @@
+**/api/config/ConfigHelper.java
+**/api/config/autogen/AssetReload.java
+**/api/config/autogen/Comment.java
+**/api/config/autogen/DisableOption.java
+**/api/config/autogen/MultiLineComment.java
+**/api/config/autogen/ReloadChunks.java
+**/api/config/autogen/RequireRestart.java
+**/api/config/autogen/WorldRenderUpdate.java
+**/config/autogen/OptionFlagRegistry.java

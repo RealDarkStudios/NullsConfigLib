@@ -113,7 +113,14 @@ subprojects {
     license {
         rule rootProject.file("LICENSE_HEADER")
 
-        include "**/*.java"
+        var common = "COMMON_LICENSABLE_FILES"
+        var fabric = "FABRIC_LICENSABLE_FILES"
+        var neoforge = "NEOFORGE_LICENSABLE_FILES"
+        var licensables = project.name == "neoforge" ? neoforge : project.name == "fabric" ? fabric : common
+
+        rootProject.file(licensables).eachLine {
+            include "$it"
+        }
     }
 
     signing {
@@ -125,5 +132,6 @@ subprojects {
         if (JavaVersion.current().isJava9Compatible()) {
             options.addBooleanOption('html5', true)
         }
+        options.memberLevel = JavadocMemberLevel.PRIVATE
     }
 }

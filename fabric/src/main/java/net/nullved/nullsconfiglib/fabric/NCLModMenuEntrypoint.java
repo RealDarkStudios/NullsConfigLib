@@ -21,7 +21,7 @@ package net.nullved.nullsconfiglib.fabric;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 import net.minecraft.client.gui.screens.Screen;
-import net.nullved.nullsconfiglib.platform.NCLConfig;
+import net.nullved.nullsconfiglib.NCLConfig;
 
 public class NCLModMenuEntrypoint implements ModMenuApi {
     @Override

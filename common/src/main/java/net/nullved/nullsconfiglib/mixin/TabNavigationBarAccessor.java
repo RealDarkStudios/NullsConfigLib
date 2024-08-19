@@ -1,21 +1,3 @@
-/*
- * NullsConfigLib - A Config Library for Null's Mods
- * Copyright (C) 2024 NullVed
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 package net.nullved.nullsconfiglib.mixin;
 
 import com.google.common.collect.ImmutableList;
@@ -29,18 +11,38 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 
 @Mixin(TabNavigationBar.class)
 public interface TabNavigationBarAccessor {
+    /**
+     * Accessor for {@link TabNavigationBar#layout}
+     * @return The {@link LinearLayout}
+     */
     @Accessor("layout")
     LinearLayout ncl$getLayout();
 
+    /**
+     * Accessor for {@link TabNavigationBar#width}
+     * @return The {@code int}
+     */
     @Accessor("width")
     int ncl$getWidth();
 
+    /**
+     * Accessor for {@link TabNavigationBar#tabManager}
+     * @return The {@link TabManager}
+     */
     @Accessor("tabManager")
     TabManager ncl$getTabManager();
 
+    /**
+     * Accessor for {@link TabNavigationBar#tabs}
+     * @return The {@link ImmutableList<Tab>}
+     */
     @Accessor("tabs")
     ImmutableList<Tab> ncl$getTabs();
 
+    /**
+     * Accessor for {@link TabNavigationBar#tabButtons}
+     * @return The {@link ImmutableList<TabButton>}
+     */
     @Accessor("tabButtons")
     ImmutableList<TabButton> ncl$getTabButtons();
 }

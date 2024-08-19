@@ -25,7 +25,7 @@ import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 import net.neoforged.neoforge.event.GameShuttingDownEvent;
 import net.nullved.nullsconfiglib.NullsConfigLib;
 import net.neoforged.fml.common.Mod;
-import net.nullved.nullsconfiglib.platform.NCLConfig;
+import net.nullved.nullsconfiglib.NCLConfig;
 
 @Mod(NullsConfigLib.MOD_ID)
 public final class NullsConfigLibNeoForge {
